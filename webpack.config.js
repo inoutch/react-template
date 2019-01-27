@@ -54,6 +54,7 @@ module.exports = (env, argv) => {
             new WebpackBuildNotifierPlugin(),
         ],
         devServer: {
+            open: true,
             contentBase: path.join(__dirname, dstDir),
             watchContentBase: true,
             port: 3000,
