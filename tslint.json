@@ -1,0 +1,12 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "object-curly-spacing": false,
+    "quotemark": true,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "space-before-function-paren": false,
+    "strict-type-predicates": true,
+    "ter-indent": [true, 4],
+    "trailing-comma": true
+  }
+}
